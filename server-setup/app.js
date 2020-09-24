@@ -29,6 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan('dev'));
 
 // mongoose and mongo sandbox routes
+/*
   app.get('/add-blog', (req,res) => {
     const blog = new Blog({
       title: 'new blog 2',
@@ -64,6 +65,7 @@ app.use(morgan('dev'));
         console.log(err);
       });
   });
+  */
 
 /*
 app.use((req, res, next) => {
